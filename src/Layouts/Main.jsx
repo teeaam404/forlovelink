@@ -5,10 +5,10 @@ import Footer from '../Components/Footer/Footer';
 
 const Main = () => {
     return (
-        <div className='relative h-[100vh] w-[100%]'>
+        <div className='relative w-[100%]'>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <div className='absolute md:bottom-0 border-3 w-[100%] border-red-500 border ' >
+            <div className='fixed md:bottom-0 border-3 w-[100%] border-red-500 border ' >
             <Footer></Footer>
             </div>
         </div>
