@@ -1,14 +1,14 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
+import Navbar from '../Shared/Navbar/Navbar';
+import Footer from '../Shared/Footer/Footer';
 
 const Main = () => {
     return (
-        <div className='relative w-[100%]'>
+        <div className=''>
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <div className='fixed md:bottom-0 border-3 w-[100%] border-red-500 border ' >
+            <div className='' >
             <Footer></Footer>
             </div>
         </div>
