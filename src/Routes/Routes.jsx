@@ -1,8 +1,7 @@
-import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Main from '../Layouts/Main';
-import Home from '../Pages/Home/Home/Home';
-import QnaSection from '../Components/QnaSection/QnaSection';
+import Home from '../Pages/Home/Home';
+
 
 export const router = createBrowserRouter([
     {
@@ -11,12 +10,8 @@ export const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home></Home>
+                element: <Home/>
             },
-            {
-                path: "askqna",
-                element: <QnaSection></QnaSection>
-            }
         ]
     }
 ])
