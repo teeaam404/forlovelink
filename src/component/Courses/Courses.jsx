@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Rating } from "@smastrom/react-rating";
 import "@smastrom/react-rating/style.css";
 import { Link } from "react-router-dom";
-// import CourseDetails from "../../component/CourseDetails/CourseDetails";
+
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
