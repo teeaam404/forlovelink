@@ -12,7 +12,7 @@ const Footer = () => {
             <img className="w-32" src={logo} alt="" />
             </Link>
             <br />
-            Copyright © {new Date().getFullYear()} - All right reserved by
+            Copyright © {new Date().getFullYear()} - Alll right reserved by
             RunTheStack
           </p>
         </div>
