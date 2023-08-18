@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Container from '../../Shared/Container/Container';
-import login from '../../../public/Login/login.gif'
+import login from '/public/Login/login.gif'
 import { FaGithub } from "react-icons/fa";
 import { AiFillGoogleCircle } from "react-icons/ai";
 

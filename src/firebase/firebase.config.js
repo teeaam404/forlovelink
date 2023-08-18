@@ -10,10 +10,8 @@ const firebaseConfig = {
   projectId: "run-the-stack",
   storageBucket: "run-the-stack.appspot.com",
   messagingSenderId: "332482092908",
-  appId: "1:332482092908:web:f201e689a4b8c125d41d49"
+  appId: "1:332482092908:web:6e618ac7bd12e218d41d49"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-export default app;
